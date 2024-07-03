@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(139, 138, 116);
+    margin: 0;
+    padding: 0;
+}
+.signup-login{
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    background: url(./images/Resim.jpeg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.signup-login h1{
+    color: snow;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.signup-login input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+.txt{
+    margin: 20px 0;
+    border-radius: 6px;
+}
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(139, 138, 116);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.8s;
+    display: block;
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background-color: rgb(212, 212, 205);
+}
+.signup-login a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+    transition: 0.5;
+    
+}
+.signup-login a:hover{
+    color: rgb(139, 138, 116);
+    transform: scale(0.96);
+   
+    
+}
+
